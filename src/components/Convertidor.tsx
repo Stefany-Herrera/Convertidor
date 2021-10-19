@@ -101,18 +101,24 @@ const styles = StyleSheet.create({
 
     button: {
 
-        marginTop:10,
+   
+    marginTop: 10, 
+    backgroundColor: 'blue',
+    height: 50,
+    width:90,
+    marginLeft: 55
+    
 
     },
 
     input: {
-        
-        width:100,
-        borderWidth:1,
-        borderRadius: 5,
-        paddingHorizontal:10,
-        paddingVertical: 5,
-        borderColor: 'red'
+        marginTop: 10,
+        width:200,
+        borderWidth:2,
+        borderRadius: 10,
+        paddingHorizontal:15,
+        paddingVertical: 20,
+        borderColor: 'blue'
 
 
 
