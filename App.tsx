@@ -1,26 +1,16 @@
 import { StatusBar } from 'expo-status-bar';
 import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import { Convertidor } from './src/components/Convertidor';
-import ContadorScreen from './src/components/Contador';
+import { Cambio } from './src/components/Cambio';
+
+
+
 
 export default function App() {
   return (
-    /*<View style={styles.container}>
-      
-      <Convertidor/>
-      <StatusBar style="auto" />
-  </View>*/
-  //<ContadorScreen />
-  <Convertidor/>
+    <Cambio />
+  
   );
 }
 
-/*const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fffbb1',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});*/
+
+
